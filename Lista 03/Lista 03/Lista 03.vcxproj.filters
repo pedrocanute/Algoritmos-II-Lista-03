@@ -27,5 +27,8 @@
     <ClCompile Include="Exercicio04.c">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="Exercicio05.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
