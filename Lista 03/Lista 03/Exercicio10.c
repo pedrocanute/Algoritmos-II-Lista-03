@@ -4,21 +4,19 @@
 //
 ////Escreva a função para cálculo do N - ésimo termo da sequência de Collatz utilizando recursividade.
 //
-//void calcularCollatz(int n) {
-//	printf("%d ", n);
-//	if (n == 1) return;
+//int calcularCollatz(int n) {
+//	if (n == 1) 
+//		return 1;
 //	if (n % 2 == 0) 
-//		n = n / 2;
-//	else 
-//		n = 3 * n + 1;
-//	calcularCollatz(n);
+//		return calcularCollatz(n/2);
+//	return calcularCollatz(3 * n + 1);
 //}
 //
 //int main() {
 //	int n;
 //	printf("Digite um numero; ");
 //	scanf("%d", &n);
-//	calcularCollatz(n);
+//	printf("%d ", calcularCollatz(n));
 //
 //	return 0;
 //}
