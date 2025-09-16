@@ -4,24 +4,24 @@
 //#include <time.h>
 //
 ////Escreva uma função recursiva que recebe um array de inteiros e retorna a soma dos elementos do array.
-//int somar_array(int sequencia[], int tamanho) {
+//int somar_array(int a[], int n) {
 //	
-//	if (tamanho == 0)
+//	if (n == 0)
 //		return 0;
 //	else
-//		return sequencia[tamanho - 1] + somar_array(sequencia, tamanho - 1);
+//		return a[n - 1] + somar_array(a, n - 1);
 //
 //}
 //
 //int main() {
 //	srand(time(NULL));
-//
-//	for (int i = 0; i < n; i++);
-//
-//	int *sequencia = NULL;
-//	int *sequenciaMalloc = malloc(5 * sizeof(int));
-//	
-//	printf("A soma dos elementos da: %d", somar_array(sequencia, 3));
+//	int a[5] = rand() % 21;
+//	for (int i = 0; i < 5; i++){
+//		printf("%d ", a[i]);
+//		 a[i] = rand() % 21
+// }
+// 
+//	printf("A soma dos elementos da: %d", somar_array(a, 5));
 //
 //	return 0;
 //}
