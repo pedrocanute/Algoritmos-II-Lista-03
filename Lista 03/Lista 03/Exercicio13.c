@@ -9,12 +9,10 @@
 //	
 //	if (n == 0)
 //		return 0;
-//	
-//	int i = 0;
 //	if (n % 10 == x)
-//		i++;
+//		return 1 + contar_digito(n/10, x);
 //	else
-//		return i + contar_digito(n/10, x);
+//		contar_digito(n/10, x);
 //}
 //
 //int main(){
