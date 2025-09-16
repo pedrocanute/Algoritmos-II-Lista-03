@@ -5,13 +5,9 @@
 ////Escreva a função para cálculo do N - ésimo termo da sequência de Padovan utilizando recursividade. P(n)=P(n−2)+P(n−3),para n>2
 //
 //int calcularPadovan(int n) {
-//	if (n < 0)
-//		return 0;
-//	else
-//		if (n < 2)
+//	if (n <= 2)
 //			return 1;
-//		else
-//			return calcularPadovan(n - 2) + calcularPadovan(n - 3);
+//  return calcularPadovan(n - 2) + calcularPadovan(n - 3);
 //}
 //
 //int main() {
